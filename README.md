@@ -7,8 +7,7 @@ Add repository
 ```bash
 > brew tap Thwani47/tools
 ```
-
-Install [uhm](https://github.com/Thwani47/uhm)
+## [uhm](https://github.com/Thwani47/uhm)
 ```bash
 > brew install uhm
 ```
