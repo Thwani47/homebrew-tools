@@ -5,11 +5,11 @@
 class Uhm < Formula
   desc ""
   homepage "https://github.com/Thwani47/uhm"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
-    url "https://github.com/Thwani47/uhm/releases/download/v0.1.3/uhm_0.1.3_darwin_all.tar.gz"
-    sha256 "9dd3f12b7b9f139bdf1ad6b0460dbdc95c8630d8de55acb490920f7850b0e7bc"
+    url "https://github.com/Thwani47/uhm/releases/download/v0.1.4/uhm_0.1.4_darwin_all.tar.gz"
+    sha256 "bc20c0aa43bdc0349d9abbaef70764ef7bdda5f84bfe3a9a7b276cdb745b2d76"
 
     def install
       bin.install "uhm"
@@ -19,8 +19,8 @@ class Uhm < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Thwani47/uhm/releases/download/v0.1.3/uhm_0.1.3_linux_amd64.tar.gz"
-        sha256 "bc298892ceff386eb3a3c2b246a150a66558b8748c0cf5b3e8089c2249ebe177"
+        url "https://github.com/Thwani47/uhm/releases/download/v0.1.4/uhm_0.1.4_linux_amd64.tar.gz"
+        sha256 "004c4f00f256401ade0b524ab902b2d5e907c7db438f443ebc0e8319bc2b4d72"
 
         def install
           bin.install "uhm"
@@ -29,8 +29,8 @@ class Uhm < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Thwani47/uhm/releases/download/v0.1.3/uhm_0.1.3_linux_arm64.tar.gz"
-        sha256 "1889e6c16394e336393726d30140ad8551ae8728b99a14f57f0799ed817074fb"
+        url "https://github.com/Thwani47/uhm/releases/download/v0.1.4/uhm_0.1.4_linux_arm64.tar.gz"
+        sha256 "20b3ae635e548c4f7e140ef0939bafcdd8cb325b6f43856326e60d7878d212d8"
 
         def install
           bin.install "uhm"
